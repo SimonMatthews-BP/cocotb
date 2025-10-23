@@ -56,6 +56,7 @@ def simulator_support_matrix() -> list[tuple[str, str, str]]:
         ("nvc", "vhdl", "vhpi"),
         ("questa", "vhdl", "fli"),
         ("verilator", "verilog", "vpi"),
+        ("bpsim", "verilog", "vpi"),
     ]
 
     return standard + special
